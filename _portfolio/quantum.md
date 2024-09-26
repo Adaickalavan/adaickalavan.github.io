@@ -52,13 +52,13 @@ make format
 ## Quantum programs
 1. [Swap test](https://github.com/Adaickalavan/quantum/blob/main/swap_test.py)
 
-    ![swap test](/assets/images/quantum/swap_test.png)
+    [![swap test](/assets/images/quantum/swap_test.png)](/assets/images/quantum/swap_test.png)
 
     Compare the states of two single-qubit registers. If the two input states are equal, the output register results in $\|1⟩$ state. An useful interpretation is to see that the probability of a $\|1⟩$ outcome is a measure of just how identical the two inputs are.
 
 1. [Teleport](https://github.com/Adaickalavan/quantum/blob/main/teleport.py)
 
-    ![teleport](/assets/images/quantum/teleport.png)
+    [![teleport](/assets/images/quantum/teleport.png)](/assets/images/quantum/teleport.png)
 
     Alice teleports the quantum state of her payload qubit using an entangled pair of qubits shared with Bob. Only two classical bits are needed to transmit Alice’s qubit state (i.e., magnitudes and relative phase) and Bob's retrieved qubit state will be correct to a potentially infinite number of classical bits of precision. Because a traditional channel is needed to convey the two classical bits from Alice to Bob, the speed of teleportation can be no faster than the speed of light. <br>
 
@@ -66,13 +66,13 @@ make format
 
 1. [Arithmetic](https://github.com/Adaickalavan/quantum/blob/main/arithmetic.py)
 
-    ![arithmetic](/assets/images/quantum/arithmetic.png)
+    [![arithmetic](/assets/images/quantum/arithmetic.png)](/assets/images/quantum/arithmetic.png)
 
     Create two quantum registers and initialize them to $a=\sqrt{0.5}\|1⟩+\sqrt{0.5}\|5⟩$ and $b=\sqrt{0.5}\|1⟩+e^{i\pi/4}\sqrt{0.5}\|3⟩$. Decrement register $a$ by 3. Then, increment register $b$ conditional on register $a<0$. Here, register $a$ is assumed to be in two’s-complement, where the highest-order bit indicates the sign. Finally, increment register $a$ by 3.
 
 1. [Scratch qubit](https://github.com/Adaickalavan/quantum/blob/main/scratch_qubit.py)
 
-    ![scratch qubit](/assets/images/quantum/scratch_qubit.png)
+    [![scratch qubit](/assets/images/quantum/scratch_qubit.png)](/assets/images/quantum/scratch_qubit.png)
 
     Scratch qubits play a temporary role in enabling quantum operations. A specific example of an otherwise irreversible operation that can be made reversible with a scratch qubit is `abs(a)`. The `abs()` function computes the absolute value of a signed integer. We assume two’s-complement notation here. <br>
 
@@ -80,19 +80,19 @@ make format
 
 1. [Amplitude amplification](https://github.com/Adaickalavan/quantum/blob/main/amplitude_amplification.py) <a id="amplitude-amplification"></a>
 
-    ![amplitude amplification](/assets/images/quantum/amplitude_amplification.png)
+    [![amplitude amplification](/assets/images/quantum/amplitude_amplification.png)](/assets/images/quantum/amplitude_amplification.png)
 
     Amplitude amplification converts inaccessible phase differences inside a quantum processor into measurable magnitude differences. Amplitue amplification consists of iterative `flip` followed by `mirror` subroutines. Subroutine `flip` marks the desired state by a phase-flip. Subroutine `mirror` reflects each state about the average overall state. This results in the marked state having a larger read probability than nonmarked states. In Grover search algorithm, the `flip` and `mirror` are known as the `oracle` and `diffuser`, respectively.
 
 1. [Quantum Fourier Transform](https://github.com/Adaickalavan/quantum/blob/main/quantum_fourier_transform.py)
 
-    ![QFT](/assets/images/quantum/quantum_fourier_transform.png)
+    [![QFT](/assets/images/quantum/quantum_fourier_transform.png)](/assets/images/quantum/quantum_fourier_transform.png)
 
     Use Quantum Fourier Transform to deduce the frequencies present in a quantum register.
 
 1. [Phase estimation](https://github.com/Adaickalavan/quantum/blob/main/phase_estimation.py)
 
-    ![phase estimation](/assets/images/quantum/phase_estimation.png)
+    [![phase estimation](/assets/images/quantum/phase_estimation.png)](/assets/images/quantum/phase_estimation.png)
 
     We build a phase estimation circuit to compute the eigenphase $\theta$, given a unitary quantum operation $U$ and its eigenstate. Acting an $U$ on its eigenstate produces the same eigenstate but with the eigenphase applied to its global phase. That is to say $U\|\psi⟩=e^{i2\pi\theta}\|\psi⟩$. These eigenphase rotations are kicked-back into the $m$ qubits in the counting register, creating a frequency modulation. Inverse QFT is applied to the counting register to decode the frequency present and to obtain its count value $v$. Then, $\theta = v2\pi / 2^m$.<br>
 
@@ -100,7 +100,7 @@ make format
 
 1. [Phase logic](https://github.com/Adaickalavan/quantum/blob/main/phase_logic.py)
 
-    ![phase logic](/assets/images/quantum/phase_logic.png)
+    [![phase logic](/assets/images/quantum/phase_logic.png)](/assets/images/quantum/phase_logic.png)
 
     Phase-logic circuits flip the relative phases of all input states for which the circuit operation evaluate to true. Note that phase-logic circuits take in magnitude values such as $\|1⟩$ or $\|2⟩$, but not phase values, as inputs and encode output values in the relative phases.<br>
 
@@ -118,8 +118,9 @@ make format
 
 1. [Transpile](https://github.com/Adaickalavan/quantum/blob/main/transpile.py)
 
-    ![transpile](/assets/images/quantum/transpile.png)
-
     Quantum circuit must be transpiled for it to run on real devices. Qiskit's transpiler converts circuit operations to those supported by the device, maps qubits according to the device's coupling map, and performs some optimization of circuit’s gate count.
+
+    <figure><a href="/assets/images/quantum/transpile.png">
+    <img src="/assets/images/quantum/transpile.png"></a><figcaption>Circuit before (left) and after (right) transpiling.</figcaption></figure>
 
     Here, we transpile a quantum circuit containing `[cx, y]` gates onto a `GenericBackendV2` device which only supports `[id, rz, sx, x, cx]` gates. We may select `optimization_level`$\in [0,1,2,3]$ as input argument to the transpiler. Level 0 does the aboslute minimum necessary, level 1 is the default setting, level 2 tries to avoid qubit swaps, and level 3 is the highest which  uses smarter algorithms to cancel out gates.
