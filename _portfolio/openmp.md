@@ -1,5 +1,5 @@
 ---
-title: "Parallel Programming with OpenMP - Tim Mattson"
+title: "Parallel Programming with OpenMP"
 excerpt: "OpenMP, C/C++, Docker"
 header:
   teaser: /assets/images/openmp_01.jpg
@@ -95,19 +95,19 @@ For easy reference, each solution code is named according to the slide on which 
     <td class="tg-2fy7" rowspan="6">1) <span style="font-weight:bold">File</span>: `/apps/tutorial.cpp`<br>2) <span style="font-weight:bold">Build</span>: `docker build -t openmp .` on `Dockerfile`<br>3) <span style="font-weight:bold">Set</span>: `command: /src/bin/tutorial` in `docker-compose.yaml` file <br>4) <span style="font-weight:bold">Run</span>: `docker-compose up` on `docker-compose.yaml` file</td>
   </tr>
   <tr>
-    <td class="tg-9ikn">Slide 48 - Compute Pi in serial</td>
+    <td class="tg-9ikn">Slide 48 - Compute $\pi$ in serial</td>
   </tr>
   <tr>
-    <td class="tg-5rba">Slide 52 - Compute Pi in parallel with false sharing</td>
+    <td class="tg-5rba">Slide 52 - Compute $\pi$ in parallel with false sharing</td>
   </tr>
   <tr>
-    <td class="tg-2bev">Slide 57 - Compute Pi in parallel with padding</td>
+    <td class="tg-2bev">Slide 57 - Compute $\pi$ in parallel with padding</td>
   </tr>
   <tr>
-    <td class="tg-5rba">Slide 69 - Compute Pi in parallel with synchronization</td>
+    <td class="tg-5rba">Slide 69 - Compute $\pi$ in parallel with synchronization</td>
   </tr>
   <tr>
-    <td class="tg-2bev">Slide 88 - Compute Pi with WorkSharing</td>
+    <td class="tg-2bev">Slide 88 - Compute $\pi$ with WorkSharing</td>
   </tr>
   <tr>
     <td class="tg-5rba">Slide 119 - Mandel Brot</td>
@@ -128,7 +128,7 @@ For easy reference, each solution code is named according to the slide on which 
     <td class="tg-5rba">1) <span style="font-weight:bold">File</span>: `/apps/prodCons.c`<br>2) <span style="font-weight:bold">Build</span>: `docker build -t openmp .` on `Dockerfile`<br>3) <span style="font-weight:bold">Set</span>: `command: /src/bin/prodCons` in `docker-compose.yaml` file<br>4) <span style="font-weight:bold">Run</span>: `docker-compose up` on `docker-compose.yaml` file<br></td>
   </tr>
   <tr>
-    <td class="tg-2bev">Slide 177 - Parallel Monte Carlo computation of PI</td>
+    <td class="tg-2bev">Slide 177 - Parallel Monte Carlo computation of $\pi$</td>
     <td class="tg-9ikn" rowspan="3">1) <span style="font-weight:bold">File</span>: `/apps/pi_mc.c`<br>2) <span style="font-weight:bold">Build</span>: `docker build -t openmp .` on `Dockerfile`<br>3) <span style="font-weight:bold">Set</span>: `command: /src/bin/pi_mc` in `docker-compose.yaml` file<br>4) <span style="font-weight:bold">Run</span>: `docker-compose up` on `docker-compose.yaml` file<br></td>
   </tr>
   <tr>

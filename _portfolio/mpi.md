@@ -1,5 +1,5 @@
 ---
-title: "Parallel Programming in Python with MPI"
+title: "Parallel Programming with MPI"
 excerpt: "MPI, Python"
 header:
   teaser: /assets/images/mpi/servers.png
@@ -62,6 +62,9 @@ $ mpiexec -n 4 python3.10 pi_montecarlo.py
 
 1. [Monte Carlo Pi](https://github.com/Adaickalavan/mpi/blob/main/pi_montecarlo.py)
     
+    {: .notice--success}
+    Parallel computation of $\pi$ using OpenMP is descibed [here](/portfolio/openmp/).
+
     The value of $\pi$ can be calculated using MonteCarlo method. Consider a unit radius (i.e., $r = 1$) circle inscribed inside a square with sides of length 2r. Area of circle, area of square, and their ratios are as follows. 
 
     $$
