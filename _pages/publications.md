@@ -3,12 +3,6 @@ permalink: /publications/
 excerpt: "Patents and publications"
 ---
 
-<!--
-<a href="/about/" class="btn btn--large btn--inverse">Profile</a>
-<a href="/publications/" class="btn btn--large btn--inverse">Publications</a>
-<a href="/assets/docs/Adaickalavan Meiyappan.pdf" class="btn btn--large btn--inverse">CV</a>
--->
-
 ## <a name="patents"></a>Patents
 **A. Meiyappan**, J. Li, M. Ciacci, G. Al-Kadi, “Detector”, Europe EP3145143B1 / USA US9992012B2 / China CN201610806691.3, 15 Sept. 2015.
 [![html](/assets/icons16/html-icon.png)](https://worldwide.espacenet.com/publicationDetails/originalDocument?CC=EP&NR=3145143B1&KC=B1&FT=D&ND=4&date=20190320&DB=&locale=en_EP)
