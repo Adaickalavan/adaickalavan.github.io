@@ -1,6 +1,7 @@
 ---
 permalink: /publications/
 excerpt: "Patents and publications"
+title: Publications
 ---
 
 ## <a name="patents"></a>Patents
