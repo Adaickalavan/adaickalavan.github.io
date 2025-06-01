@@ -15,3 +15,5 @@ last_modified_at: 2025-04-24
 * "Loss of anxiety and fear is a road to failure" - Anonymous
 
 * "Q: What are you most afraid of? A: Unfulfilled potential" - Emma Watson [Actress]
+
+* "No one raindrop thinks it caused the flood"

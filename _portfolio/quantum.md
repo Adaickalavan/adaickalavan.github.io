@@ -7,17 +7,23 @@ date: "2024-09-25"
 ---
 
 ## Introduction
-This project explores quantum computing and Qiskit. We present several foundational quantum computing algorithms. Each file is a standalone example. The [Dancing with Qubits - Second edition](https://www.packtpub.com/en-ca/product/dancing-with-qubits-9781837636754) book by Robert S. Sutor is an excellent comprehensive book, suitable for beginners, which teaches quantum computing beginning from the basics.
+This project explores quantum computing and quantum error correction. We present several foundational quantum computing algorithms. Each file is a standalone example.
+
+The following are several good books and courses on learning quantum computing. Feel free to suggest any other good resources in the comments section.
+1. [Dancing with Qubits](https://www.packtpub.com/en-us/product/dancing-with-qubits-9781837634620)
+1. [Programming Quantum Computers](https://www.oreilly.com/library/view/programming-quantum-computers/9781492039679/)
+1. [Hands-on quantum error correction with Google Quantum AI](https://www.coursera.org/learn/quantum-error-correction)
 
 The following tools will be used in this project:
 + Qiskit
++ Stim
 + Python
 
 ## Code
 Find the source code in the [repository](https://github.com/Adaickalavan/quantum).
 
 ## Learning Outcome
-At the end of this project, we should understand and be comfortable using Qiskit to implement quantum agorithms.
+At the end of this project, we should understand and be comfortable using Qiskit, Stim, and Python for quantum agorithms and quantum error correction.
 
 ## Installation
 First, perform generic setup as follows.  
