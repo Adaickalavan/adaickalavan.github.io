@@ -23,39 +23,40 @@ The following tools will be used in this project:
 Find the source code in the [repository](https://github.com/Adaickalavan/quantum).
 
 ## Learning Outcome
-At the end of this project, we should understand and be comfortable using Qiskit, Stim, and Python for quantum agorithms and quantum error correction.
+At the end of this project, we should understand and be comfortable using Qiskit, Stim, and Python, for quantum agorithms and quantum error correction.
 
 ## Installation
 First, perform generic setup as follows.  
 ```bash
-cd <path>/quantum
-python3.10 -m venv ./.venv
-source ./.venv/bin/activate
-pip install --upgrade pip
-pip install qiskit[visualization]
-pip install qiskit-ibm-runtime
-pip install matplotlib pylatexenc ipykernel
+$ cd <path>/quantum
+$ python3.10 -m venv ./.venv
+$ source ./.venv/bin/activate
+$ pip install --upgrade pip
+$ pip install qiskit[visualization]
+$ pip install qiskit-ibm-runtime
+$ pip install matplotlib pylatexenc ipykernel
 ```
 
 Users are recommended to run each of this repository's code files inside the interactive window in VSCode.
 
 Alternatively, users may run the code inside JupyterLab. Follow the additional steps below to install and launch JupyterLab.
 ```bash
-cd <path>/quantum
-pip install jupyterlab
+$ cd <path>/quantum
+$ pip install jupyterlab
 # Once installed, launch JupyterLab with:
-jupyter lab
+$ jupyter lab
 ```
 
 Optional libraries for code formatting.
 ```bash
-cd <path>/quantum
-pip install black[jupyter] isort
+$ cd <path>/quantum
+$ pip install black[jupyter] isort
 # Execute to format code.
-make format
+$ make format
 ```
 
-## Quantum programs
+## Code
+
 1. [Swap test](https://github.com/Adaickalavan/quantum/blob/main/swap_test.py)
 
     [![swap test](/assets/images/quantum/swap_test.png)](/assets/images/quantum/swap_test.png)
