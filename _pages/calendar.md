@@ -7,6 +7,6 @@ last_modified_at: 2025-03-22
 Feel free to schedule a chat with me at any time convenient to you by selecting a time slot from my calendar.
 
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/adai/chat?hide_event_type_details=1" style="min-width:320px;height:1200px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<div class="calendly-inline-widget" data-url="https://calendly.com/adai/chat?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:1000px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
