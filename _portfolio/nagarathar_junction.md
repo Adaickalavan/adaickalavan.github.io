@@ -1,5 +1,5 @@
 ---
-title: "Nagarathar Junction"
+title: "Social Network"
 excerpt: "Flutter, Dart, Firebase, Supabase"
 header:
   teaser: /assets/images/nagarathar_junction/nagarathar_junction_landing.jpg
@@ -30,7 +30,7 @@ The following tools are used in this project:
 ## Social Network
 The social network is live and open to general public at [https://nagaratharjunction-46a17.web.app/](https://nagaratharjunction-46a17.web.app/).
 
-{% include gallery id="gallery_01" caption="Nagarathar Junction App"%}
+{% include gallery id="gallery_01" caption="Social Network App, titled as Nagarathar Junction"%}
 
 ## Code
 Find the source code in the [repository](https://github.com/Adaickalavan/NagaratharJunction). The repository is currently private.
